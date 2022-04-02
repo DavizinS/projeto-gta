@@ -67,7 +67,7 @@ nav > a:hover {
     color: white;
     text-transform: uppercase;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555); 
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 header {
@@ -93,6 +93,7 @@ header {
     font-family: var(--fonte-padrao);
     cursor: pointer;
     transition-duration: 0.7s;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.418);
 
     left: 50%;
     top: 50%;
@@ -111,6 +112,7 @@ header {
     font-family: var(--fonte-padrao);
     cursor: pointer;
     transition-duration: 0.7s;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.418);
 
     left: 50%;
     top: 50%;
@@ -199,9 +201,30 @@ article > p {
     box-shadow: inset 1px 1px 6px black;
 }
 
+#container {
+    position: relative;
+    background-color: #081525;
+    max-width: 1000px;
+    height: 250px;
+    margin: auto;
+}
+
+/*#caixa01 {
+    background-color: #5a2828;
+    max-width: 400px;
+    height: 250px;
+}
+
+#caixa02 {
+    background-color: #5a2828;
+    max-width: 400px;
+    height: 250px;
+}*/
+
 footer {
     background-color: #081525;
     color: rgb(168, 168, 168);
     text-align: center;
     padding: 5px;
+    margin-top: 50px;
 }
