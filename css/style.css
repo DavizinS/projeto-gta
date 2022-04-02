@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Redhat";
+    src: url("../fonts/RedHatMono-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+/* Palheta de Cores 
+- #061D3B
+- #0D3D7A
+- #145CBA
+- #196FE0
+- #1C7CFA
+*/
+
+:root {
+    /* Fontes */
+    --fonte-padrao: "Oswald", Arial, sans-serif;
+    --fonte-parag: "Redhat", Helvetica, serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1c314d;
+}
+
+nav {
+    background-color: #143157;
+    padding: 10px;
+}
+
+nav > a {
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    font-size: 0.95em;
+    text-decoration: none;
+    text-align: right;
+    font-weight: normal;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition-duration: 1s;
+}
+
+nav > a:hover {
+    color: #455870;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#navtitle {
+    float: right;
+    font-family: var(--fonte-padrao);
+    font-size: 0.65em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555); 
+    margin-right: 30px;
+}
+
+header {
+    position: relative;
+    height: 650px;
+    background-image: url('../imgs/1-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 6px black;
+}
+
+#download {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color: #b14a4a;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-family: var(--fonte-padrao);
+    cursor: pointer;
+    transition-duration: 0.7s;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, 50%);
+}
+
+#discord {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color: #694ab1;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-family: var(--fonte-padrao);
+    cursor: pointer;
+    transition-duration: 0.7s;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(10%, 50%);
+}
+
+#download:hover {
+    background-color: #5a2828;
+    color: #7d61be;
+}
+
+#discord:hover {
+    background-color: #342655;
+    color: #b45959;
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 6px black;
+}
+
+hr {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ptitulo {
+    font-family: "Redhat";
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555);
+}
+
+
+article {
+    background-color: #143157;
+    max-width: 600px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.425);
+}
+
+article > h1, h2, h3 {
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+article > p {
+    color: rgb(148, 147, 147);
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding: 25px 50px 25px 50px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.329);
+}
+
+#imgatt {
+    height: 400px;
+    background-image: url('../imgs/trevor1280.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 6px black;
+}
+
+#imgjogue {
+    height: 400px;
+    background-image: url('../imgs/grand_theft_auto_gta5_screenshot_170813__3.jpg');
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 6px black;
+}
+
+footer {
+    background-color: #081525;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    padding: 5px;
+}
