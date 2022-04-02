@@ -195,7 +195,7 @@ article > p {
     height: 400px;
     background-image: url('../imgs/grand_theft_auto_gta5_screenshot_170813__3.jpg');
     background-size: cover;
-    background-position: right top;
+    background-position: left top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 1px 1px 6px black;
